@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E315"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="412dp"
+        android:layout_height="51dp"
+        android:background="#053AF8"
+        android:text="Hello World!"
+        android:textColor="#FDFDFD"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="406dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#0123FF"
+        android:text="Toast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="52dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="407dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#0526FA"
+        android:text="Count"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="677dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="64dp"
+        android:layout_height="132dp"
+        android:text="0"
+        android:textSize="96sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="299dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
